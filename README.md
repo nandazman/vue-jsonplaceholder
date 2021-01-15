@@ -1,5 +1,5 @@
 # Vue jsonplaceholder
-Create user interface using [jsonplaceholder API] (https://jsonplaceholder.typicode.com/). Demo can be seen [here](https://nandazman.github.io/vue-jsonplaceholder/).
+Create user interface using [jsonplaceholder API](https://jsonplaceholder.typicode.com/). Demo can be seen [here](https://nandazman.github.io/vue-jsonplaceholder/).
 
 ## Project setup
 ```
