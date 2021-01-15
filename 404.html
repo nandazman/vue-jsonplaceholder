@@ -1,6 +1,7 @@
 
 <script>
-  const path = window.location.pathname.slice(1);
+  const project = '/vue-jsonplaceholder/';
+  const path = window.location.pathname.replace('/vue-jsonplaceholder/', '')
   localStorage.setItem('path', path);
   window.location.href='/vue-jsonplaceholder/';
 </script>
