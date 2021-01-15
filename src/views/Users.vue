@@ -83,6 +83,13 @@ export default {
   },
   created() {
     this.fetchDataUser();
+  },
+  mounted() {
+    const path = localStorage.getItem('path');
+    if (path) {
+      localStorage.removeItem('path');
+      this.$router.push(`/${path}`);
+    }
   }
 }
 </script>
